@@ -1,7 +1,7 @@
 
 # Taxi Data ELT & Streaming Pipeline Project
 
-This project implements a full data engineering workflow to process NYC data using ELT (Extract, Load, Transform) and real-time streaming pipelines.
+This project implements a full data engineering workflow to process data using ELT (Extract, Load, Transform) and real-time streaming pipelines.
 
 ---
 
@@ -24,7 +24,7 @@ This project implements a full data engineering workflow to process NYC data usi
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```bash
 ├── airflow/                   # All DAGs and Airflow-related code
@@ -55,7 +55,7 @@ This project implements a full data engineering workflow to process NYC data usi
 
 ---
 
-## 🖼️ Architecture Overview
+## Architecture Overview
 
 ![Pipeline Architecture](./assets/pipeline_architecture.png)
 
@@ -81,7 +81,7 @@ This project implements a full data engineering workflow to process NYC data usi
 
 ---
 
-### 🔸 Streaming Pipeline
+### Streaming Pipeline
 
 1. **Create Virtual Environment & Install Dependencies**
    ```bash
@@ -93,7 +93,7 @@ This project implements a full data engineering workflow to process NYC data usi
 2. **Start ApacheBeam**
    ```bash
    python beam-pipeline-taxi.py
-   ``
+   ```
 
 3. **Start Publisher**
    ```bash
@@ -103,7 +103,7 @@ This project implements a full data engineering workflow to process NYC data usi
 
 ## 🛠️ Notes
 - Ensure GCP credentials are stored securely in `config/`.
-- Rename or make new folder inside `source/csv` and `source/json` based on date you ran the program ex: `source/csv/2025-05-30`
+- Rename or make new folder inside `source/csv` and `source/json` based on date you run the program ex: `source/csv/2025-05-30`
 - Airflow is portable via Docker but may also be installed via other methods.
 - Use partitioning and incremental loading in BigQuery for optimized storage and query performance.
 
