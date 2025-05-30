@@ -101,7 +101,7 @@ This project implements a full data engineering workflow to process data using E
    ```
 ---
 
-## 🛠️ Notes
+### Notes
 - Ensure GCP credentials are stored securely in `config/`.
 - Rename or make new folder inside `source/csv` and `source/json` based on date you run the program ex: `source/csv/2025-05-30`
 - Airflow is portable via Docker but may also be installed via other methods.
