@@ -61,9 +61,9 @@ This project implements a full data engineering workflow to process data using E
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 🔹 Batch (ELT) Pipeline
+### Batch (ELT) Pipeline
 
 1. **Start Build Docker**
    ```bash
