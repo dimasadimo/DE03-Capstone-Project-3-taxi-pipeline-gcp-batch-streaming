@@ -1,0 +1,14 @@
+dbt_src:
+  outputs:
+    dev:
+      dataset: jcdeol3_capstone3_dimasadihartomo
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /opt/airflow/keys/credential.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: purwadika
+      threads: 2
+      type: bigquery
+  target: dev

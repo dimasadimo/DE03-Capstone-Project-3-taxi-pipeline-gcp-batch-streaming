@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: jcdeol3_capstone3_dimasadihartomo
+    database: purwadika
+    schema: jcdeol3_capstone3_dimasadihartomo 
+    tables:
+      - name: taxi_data_staging
+      - name: payment_type
+      - name: taxi_zone

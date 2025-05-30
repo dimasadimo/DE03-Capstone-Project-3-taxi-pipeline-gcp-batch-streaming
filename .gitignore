@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+config/venv/
+venv/
+.venv/
+env/
+ENV/
+
+# Logs
+*.log
+
+# GCP sensitive keys
+config/purwadika-service-account-key.json
+
+
+# OS generated files
+.DS_Store
